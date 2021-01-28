@@ -24,10 +24,4 @@ workflows:
             aggregate: "mean"
           defaults: #[optional]
             precision: 3
-      triggers:
-        branches:
-          ignore: irrelevant-branch
-        tags:
-          only:
-            - v.*
-            - latest
+      
